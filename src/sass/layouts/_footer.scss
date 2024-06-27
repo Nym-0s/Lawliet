@@ -1,0 +1,28 @@
+.footer {
+  background-color: #004d7b;
+  .container {
+    display: flex;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-desc {
+    font-size: 14px;
+    color: #d9dbe1;
+  }
+  &-list {
+    display: flex;
+    gap: 16px;
+  }
+  &-item {
+    background-color: #094b72;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,90 @@
+.hero {
+  .container {
+    margin-top: 94px;
+    display: flex;
+  }
+  &-reportWrap {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    background-color: #e7f6ff;
+    border-radius: 27px;
+    gap: 10px;
+    height: 40px;
+    width: 434px;
+    margin-bottom: 16px;
+  }
+  &-new {
+    background-color: #094b72;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: $whiteColor;
+    border-radius: 27px;
+    padding: 5px 15px;
+    font-size: 14px;
+    width: 86px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-report {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #193e6c;
+    font-size: 14px;
+  }
+  &-title {
+    font-family: 'Playfire Display', serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #094b72;
+    letter-spacing: 4px;
+    width: 750px;
+    margin-bottom: 46px;
+  }
+  &-desc {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    width: 590px;
+    margin-bottom: 42px;
+    color: #4f4f4f;
+    line-height: 158%;
+  }
+  &-btn {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    color: #f9f8f9;
+    background-color: #094b72;
+    border: none;
+    width: 190px;
+    height: 80px;
+    margin-bottom: 115px;
+    cursor: pointer;
+  }
+  &-company {
+    margin-bottom: 46px;
+    &-desk {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: #8b8c8c;
+      font-size: 22px;
+      letter-spacing: 2px;
+      margin-bottom: 34px;
+    }
+    &-list {
+      width: 238px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 32px;
+    }
+  }
+  &-img {
+    transform: translateX(-70px);
+    width: 550px;
+  }
+}
